@@ -1,0 +1,26 @@
+body {
+        background-color: black;
+}
+
+p {
+    color: purple;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Times, arial, Helvetica, sans-serif;
+    background-color: grey;
+    width: 300px;
+    padding: 40px
+    margin: 100px;
+}
+
+.special {
+    color: red;
+    font-size: 60px;
+    font-weight: normal;
+    font-family: helvetica;
+}
+
+#first {
+    color: green;
+    font-size: 100px;
+}
