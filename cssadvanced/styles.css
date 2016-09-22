@@ -1,0 +1,35 @@
+body {
+    background-color: Grey;
+    color: White;
+}
+
+a {
+    color: Black;
+    text-decoration: none;
+    
+}
+
+div {
+    background-color: blue;
+}
+
+.container {
+    width: 400px;
+    font-size: 0px;
+}
+
+.column {
+    background-color: blue;
+    width: 100px;
+    float: left;
+    font-size: 20px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: fixed;
+    top: 340px;
+    left: 250px;
+}
