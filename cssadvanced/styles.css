@@ -6,7 +6,11 @@ body {
 a {
     color: Black;
     text-decoration: none;
-    
+}
+
+a:hover {
+    color: red;
+    font-size: 100px;
 }
 
 div {
