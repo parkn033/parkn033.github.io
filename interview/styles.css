@@ -1,5 +1,5 @@
 body {
-        background-color:black ;
+        background-color:white ;
 }
 
 h1 {
@@ -7,21 +7,21 @@ h1 {
     font-size: 100px;
     font-weight: bold;
     font-family: Courier;
-    background-color: Grey;
+    background-color: green;
 }
 
 p2 {
     color: Black;
     font-size: 50px;
     font-family: Courier;
-    background-color: Grey;
+    background-color: ;
 }
 
 p1 {
     color: Black;
     font-size: 30px;
     font-family: Courier;
-    background-color: Grey;
+    background-color: ;
 }
     ;
 }
