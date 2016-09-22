@@ -23,8 +23,8 @@ p1 {
     font-family: Courier;
     background-color: ;
 }
-    ;
-}
+    
+
 ul {
     color: white
     font-size: 80px;
@@ -33,4 +33,15 @@ ul {
 
 h2 {
     font-family: Courier;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a:hover {
+    color: lime;
+    font-size: 40px;
 }
