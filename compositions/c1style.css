@@ -1,0 +1,311 @@
+body {
+    background-color: Black;
+    color: White;
+}
+
+a {
+    color: White;
+    text-decoration: none;
+}
+
+a:hover {
+    color: White;
+    font-size: 100px;
+}
+
+div {
+    background-color: blue;
+}
+
+.container {
+    width: 400px;
+    font-size: 0px;
+}
+
+.column {
+    background-color: blue;
+    width: 100px;
+    float: left;
+    font-size: 20px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    border-radius: 100%;
+    position: fixed;
+    top: 340px;
+    left: 250px;
+}
+
+.circle2 {
+    width: 320px;
+    background-color:darkblue;
+    height: 320px;
+    border-radius: 100%;
+    position: fixed;
+    top: 440px;
+    left: 145px;
+}
+
+
+.circle4 {
+    width: 260px;
+    background-color:darkblue;
+    height: 260px;
+    border-radius: 100%;
+    position: fixed;
+    top: 800px;
+    left: 761px;
+}
+
+.circle5 {
+    width: 800px;
+    height: 800px;
+    background-color:black;
+    border-radius: 100%;
+    position: fixed;
+    top: 190px;
+    left: 650px;
+}
+
+.circle6 {
+    width: 300px;
+    height: 100px;
+    background-color:lightblue;
+    border-radius: 100%;
+    position: fixed;
+    top: 250px;
+    left: 390px;
+}
+
+.circle7 {
+    width: 100px;
+    height: 100px;
+    background-color:darkblue;
+    border-radius: 100%;
+    position: fixed;
+    top: 250px;
+    left: 490px;
+}
+
+.circle8 {
+    width: 50px;
+    height: 50px;
+    background-color:cyan;
+    border-radius: 100%;
+    position: fixed;
+    top: 275px;
+    left: 515px;
+}
+
+.circle9 {
+    width: 300px;
+    height: 100px;
+    background-color:gree;
+    border-radius: 100%;
+    position: fixed;
+    top: 900px;
+    left: 325px;
+}
+
+.circle10 {
+    width: 100px;
+    height: 100px;
+    background-color:cyan;
+    border-radius: 100%;
+    position: fixed;
+    top: 900px;
+    left: 430px;
+}
+
+.circle11 {
+    width: 50px;
+    height: 50px;
+    background-color:black;
+    border-radius: 100%;
+    position: fixed;
+    top: 925px;
+    left: 455px;
+}
+
+
+.circle3 {
+    width: 100px;
+    background-color:lightblue;
+    height: 100px;
+    border-radius: 100%;
+    position: fixed;
+    top: 550px;
+    left: 150px;
+}
+
+
+.circle12 {
+    width: 200px;
+    background-color:blue;
+    height: 200px;
+    border-radius: 100%;
+    position: fixed;
+     top: 500px;
+    left: 145px;
+}
+
+.circle13 {
+    width: 100px;
+    background-color:blue;
+    height: 100px;
+    border-radius: 100%;
+    position: fixed;
+     top: 500px;
+    left: 460px;
+}
+
+.circle14 {
+    width: 100px;
+    background-color:lightblue;
+    height: 100px;
+    border-radius: 100%;
+    position: fixed;
+     top: 380px;
+    left: 380px;
+}
+.circle15 {
+    width: 100px;
+    background-color:lightblue;
+    height: 100px;
+    border-radius: 100%;
+    position: fixed;
+     top: 630px;
+    left: 450px;
+}
+.circle16 {
+    width: 100px;
+    background-color:blue;
+    height: 100px;
+    border-radius: 100%;
+    position: fixed;
+     top: 730px;
+    left: 355px;
+}
+
+.circle17 {
+    width: 100px;
+    background-color:lightblue;
+    height: 100px;
+    border-radius: 100%;
+    position: fixed;
+     top: 755px;
+    left: 235px;
+}
+
+
+.circle18 {
+    width: 80px;
+    background-color:blue;
+    height: 80px;
+    border-radius: 100%;
+    position: fixed;
+     top: 855px;
+    left: 675px;
+}
+
+
+.circle19 {
+    width: 80px;
+    background-color:darkblue;
+    height: 80px;
+    border-radius: 100%;
+    position: fixed;
+     top: 955px;
+    left: 685px;
+}
+
+.circle20 {
+    width: 80px;
+    background-color:blue;
+    height: 80px;
+    border-radius: 100%;
+    position: fixed;
+     top: 1035px;
+    left: 755px;
+}
+
+.container {
+    width: 1100px;
+    height: 100px;
+    font-size: 0px;
+    background-color:white;
+    top: 100px;
+    left: 100px;
+}
+
+.container2 {
+    width: 100px;
+    height: 1100px;
+    font-size: 0px;
+    background-color:white;
+    top: 100px;
+    left: 100px;
+}
+
+.container3 {
+    width: 1100px;
+    height: 100px;
+    font-size: 0px;
+    background-color:white;
+    top: 100px;
+    left: 100px;
+}
+
+.circle21 {
+    width: 30px;
+    background-color:cyan;
+    height: 30px;
+    border-radius: 100%;
+    position: fixed;
+     top: 550px;
+    left: 855px;
+}
+
+.circle22 {
+    width: 30px;
+    background-color:cyan;
+    height: 30px;
+    border-radius: 100%;
+    position: fixed;
+     top: 650px;
+    left: 855px;
+}
+
+.circle23 {
+    width: 30px;
+    background-color:cyan;
+    height: 30px;
+    border-radius: 100%;
+    position: fixed;
+     top: 600px;
+    left: 755px;
+}
+
+.circle24 {
+    width: 30px;
+    background-color:cyan;
+    height: 30px;
+    border-radius: 100%;
+    position: fixed;
+     top: 600px;
+    left: 955px;
+}
+
+.largecircle {
+    background-color:cyan;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 100%;
+    position: fixed;
+    top: 140px;
+    left: 150px;
+}
+
