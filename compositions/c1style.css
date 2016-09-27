@@ -299,6 +299,44 @@ div {
     left: 955px;
 }
 
+.circle25 {
+    width: 20px;
+    background-color:cyan;
+    height: 20px;
+    border-radius: 100%;
+    position: fixed;
+     top: 400px;
+    left: 866px;
+}
+.circle26 {
+    width: 20px;
+    background-color:cyan;
+    height: 20px;
+    border-radius: 100%;
+    position: fixed;
+     top: 800px;
+    left: 866px;
+}
+.circle27 {
+    width: 10px;
+    background-color:cyan;
+    height: 10px;
+    border-radius: 100%;
+    position: fixed;
+     top: 300px;
+    left: 871px;
+}
+
+.circle28 {
+    width: 10px;
+    background-color:cyan;
+    height: 10px;
+    border-radius: 100%;
+    position: fixed;
+     top: 900px;
+    left: 871px;
+}
+
 .largecircle {
     background-color:cyan;
     width: 1000px;
