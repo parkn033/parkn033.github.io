@@ -1,5 +1,5 @@
 body {
-    background-color: Grey;
+    background-color: White;
     color: White;
 }
 
@@ -10,16 +10,98 @@ a {
 
 a:hover {
     color: red;
-    font-size: 100px;
+    font-size: 50;
 }
 
 div {
-    background-color: blue;
+    background-color: ;
 }
+
+
 
 .container {
     width: 400px;
-    font-size: 0px;
+    height: 600px;
+    background-color:black;
+    margin-bottom:100px;
+    position:relative;
+}
+
+.child {
+    width:40px;
+    height:40px;
+    background-color:yellow;
+    position:relative;
+    margin-bottom:100px;
+}
+
+.mycircle {
+    width:100px;
+    height:100px;
+    background-color: blue;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    border-radius: 100%;
+}
+
+.triangle {
+    width: 100px;
+    border-top: 200px solid blue;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom:none;
+    position: absolute;
+}
+
+.box {
+    width:100px;
+    height:100px;
+    background-color:yellow;
+    position:absolute;
+    top:20px;
+    right:20px;
+    z-index: 100;
+}
+
+.box1 {
+    width:100px;
+    height:100px;
+    background-color:orange;
+    position:absolute;
+    top:30px;
+    right:30px;
+    z-index: 100;
+}
+
+.box2 {
+    width:100px;
+    height:100px;
+    background-color:white;
+    position:absolute;
+    top:40px;
+    right:40px;
+    z-index: 100;
+}
+
+.box3 {
+    width:100px;
+    height:100px;
+    background-color:blue;
+    position:absolute;
+    top:50px;
+    right:50px;
+    z-index: 100;
+}
+
+.box4 {
+    width:100px;
+    height:100px;
+    background-color:cyan;
+    position:absolute;
+    top:60px;
+    right:60px;
+    z-index: 100;
 }
 
 .column {
@@ -33,7 +115,37 @@ div {
     width: 100px;
     height: 100px;
     border-radius: 100%;
-    position: fixed;
-    top: 340px;
-    left: 250px;
+    position: absolute;
+    top: 400px;
+    left: 450px;
+}
+
+.button {
+    display:block;
+    width:360px;
+    height:360px;
+    background-color:cyan;
+    background-image: url(martincomb.png);
+    text-indent: 100%
+    overflow: hidden;
+}
+
+.button:hover {
+    background-position: -360px 0;
+    s
+}
+
+.button:active {
+    background-position: -720px 0;
+}
+
+.overflow {
+    margin-bottom:100px;
+    background-color:yellow;
+    color:black;
+    width:500px;
+    overflow: auto;
+    top:20px;
+    left:40px;
+    position:relative;
 }
