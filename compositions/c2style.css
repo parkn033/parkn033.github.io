@@ -515,6 +515,14 @@ div {
     border-radius: 100%;
 }
 
+.scircle1:hover {
+    width:80px;
+    height:80px;
+    background-color:white;
+    top: 450px;
+    left: 130px;
+}
+
 .scircle2 {
     width:50px;
     height:50px;
@@ -527,6 +535,14 @@ div {
     border-radius: 100%;
 }
 
+.scircle2:hover {
+    width:80px;
+    height:80px;
+    background-color:white;
+    top:170px;
+    left: 450px;
+}
+
 .scircle3 {
     width:50px;
     height:50px;
@@ -535,8 +551,14 @@ div {
     border-style:double;
     position: absolute;
     top: 450px;
-    left: 800px;
+    left: 820px;
     border-radius: 100%;
+}
+
+.scircle3:hover {
+    width:80px;
+    height:80px;
+    background-color:white;
 }
 
 .scircle4 {
@@ -549,6 +571,12 @@ div {
     top: 750px;
     left: 465px;
     border-radius: 100%;
+}
+
+.scircle4:hover {
+    width:80px;
+    height:80px;
+    background-color:white;
 }
 
 .scircle5 {
