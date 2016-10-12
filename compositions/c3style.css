@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: black;
     
 }
 
@@ -8,7 +8,7 @@ body {
     width: 1100px;
     height: 100px;
     font-size: 0px;
-    background-color:darkblue;
+    background-color:white;
     top: 100px;
     left: 100px;
 }
@@ -17,7 +17,7 @@ body {
     width: 100px;
     height: 1100px;
     font-size: 0px;
-    background-color:darkblue;
+    background-color:white;
     top: 100px;
     left: 100px;
 }
@@ -26,7 +26,7 @@ body {
     width: 1100px;
     height: 100px;
     font-size: 0px;
-    background-color:darkblue;
+    background-color:white;
     top: 100px;
     left: 100px;
 }
@@ -34,7 +34,7 @@ body {
     width: 100px;
     height: 1300px;
     font-size: 0px;
-    background-color:darkblue;
+    background-color:white;
     top: 7px;
     left: 1100px;
     position: absolute;
@@ -55,7 +55,7 @@ body {
 .mycircle {
     width:220px;
     height:220px;
-    background-color:blue;
+    background-color:white;
     border-color:black;
     border-style:double;
     position: absolute;
@@ -63,6 +63,71 @@ body {
     left: 490px;
     border-radius: 100%;
 }
+
+.rec1 {
+    width:130px;
+    height:200px;
+    background-color:black;
+    position: absolute;
+    border-color:lightgrey;
+    border-style:double;
+    border-width:10px;
+    top: 105px;
+    left: 550px;
+    font-size: 90px;
+    font-family: times;
+    color: white;
+    position: center;
+}
+
+.rec2 {
+    width:200px;
+    height:130px;
+    background-color:black;
+    position: absolute;
+    border-color:lightgrey;
+    border-style:double;
+    border-width:10px;
+    top: 600px;
+    left: 880px;
+    font-size: 110px;
+    font-family: times;
+    color: white;
+    position: center;
+}
+
+.rec3 {
+    width:130px;
+    height:200px;
+    background-color:black;
+    position: absolute;
+    border-color:lightgrey;
+    border-style:double;
+    border-width:10px;
+    top: 985px;
+    left: 550px;
+    font-size: 110px;
+    font-family: times;
+    color: white;
+    position: center;
+}
+
+.rec4 {
+    width:200px;
+    height:130px;
+    background-color:black;
+    position: absolute;
+    border-color:lightgrey;
+    border-style:double;
+    border-width:10px;
+    top: 600px;
+    left: 108px;
+    font-size: 110px;
+    font-family: times;
+    color: white;
+    position: center;
+}
+
 
 .clock {
     width: 100px;
