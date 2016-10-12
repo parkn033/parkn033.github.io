@@ -6,6 +6,7 @@ body {
 a {
     color: White;
     text-decoration: none;
+    font-size:50px;
 }
 
 a:hover {
