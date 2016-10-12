@@ -76,4 +76,82 @@
     to {
         transform: rotate(360deg);
     }
+}.button {
+    background-color: White;
+    height: 200px;
+    width: 200px;
+    border-radius:100%;
+    transition: all 2s;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 200px;
+    color: Black;
+    text-align: center;
+    animation-name:example;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.button:hover {
+    background-color: White;
+    width: 400px;
+    height: 400px;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+}
+
+@keyframes example {
+    0% {
+        color: cyan;
+    }
+    20% {
+        color: lightblue;
+    }
+    40% {
+        color: blue;
+    }
+    60% {
+        color: darkblue;
+    }
+    80% {
+        color: blue;
+    }
+    100% {
+        color: cyan;
+    }
+}
+
+.clock {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius:100%;
+    background-color:white;
+    border-color:black;
+    border-style:double;
+    animation-name: myclock;
+    animation-duration: 1ms;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    
+}
+
+.seconds {
+    width: 200px;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    top: 98px;
+    
+}
+
+@keyframes myclock{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
