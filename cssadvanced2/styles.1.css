@@ -1,0 +1,113 @@
+.full {
+    background-color: blue;
+    height:300px;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: White;
+    height: 200px;
+    width: 200px;
+    border-radius:100%;
+    transition: all 2s;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 200px;
+    color: Black;
+    text-align: center;
+    animation-name:example;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.button:hover {
+    background-color: White;
+    width: 400px;
+    height: 400px;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+}
+
+@keyframes example {
+    0% {
+        color: cyan;
+    }
+    20% {
+        color: lightblue;
+    }
+    40% {
+        color: blue;
+    }
+    60% {
+        color: darkblue;
+    }
+    80% {
+        color: blue;
+    }
+    100% {
+        color: cyan;
+    }
+}
+
+.button {
+    background-color: White;
+    height: 200px;
+    width: 200px;
+    border-radius:100%;
+    transition: all 2s;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 200px;
+    color: Black;
+    text-align: center;
+    animation-name:example;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.button:hover {
+    background-color: White;
+    width: 400px;
+    height: 400px;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+}
+
+@keyframes example {
+    0% {
+        color: cyan;
+    }
+    20% {
+        color: lightblue;
+    }
+    40% {
+        color: blue;
+    }
+    60% {
+        color: darkblue;
+    }
+    80% {
+        color: blue;
+    }
+    100% {
+        color: cyan;
+    }
+}
+
+.column {
+    display: inline-block;
+    background-color: yellow;
+    height: 200px;
+    font-size: 40px;
+    width: 25%;
+}
+
+
+body {
+    margin: 0;
+    font-size: 0;
+}

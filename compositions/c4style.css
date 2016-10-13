@@ -1,0 +1,495 @@
+body {
+    background-color: white;
+    
+}
+
+
+.container {
+    width: 1100px;
+    height: 100px;
+    font-size: 0px;
+    background-color:black;
+    top: 100px;
+    left: 100px;
+}
+
+.container2 {
+    width: 100px;
+    height: 1100px;
+    font-size: 0px;
+    background-color:black;
+    top: 100px;
+    left: 100px;
+}
+
+.container3 {
+    width: 1100px;
+    height: 100px;
+    font-size: 0px;
+    background-color:black;
+    top: 100px;
+    left: 100px;
+}
+.container4 {
+    width: 100px;
+    height: 1300px;
+    font-size: 0px;
+    background-color:black;
+    top: 7px;
+    left: 1100px;
+    position: absolute;
+}
+
+.circle1 {
+    width:400px;
+    height:220px;
+    background-color: lightblue;
+    border-color:black;
+    border-style:double;
+    position: absolute;
+    top: 540px;
+    left: 400px;
+    border-radius: 100%;
+}
+
+.mycircle1 {
+    width:220px;
+    height:220px;
+    background-color:white;
+    border-color:black;
+    border-style:double;
+    position: absolute;
+    top: 540px;
+    left: 490px;
+    border-radius: 100%;
+}
+
+.rec1 {
+    width:130px;
+    height:100px;
+    background-color:black;
+    position: absolute;
+    border-color:lightgrey;
+    border-style:double;
+    border-width:10px;
+    top: 105px;
+    left: 550px;
+    font-size: 90px;
+    font-family: times;
+    color: white;
+    position: center;
+}
+
+.rec2 {
+    width:110px;
+    height:110px;
+    background-color:black;
+    position: absolute;
+    border-color:lightgrey;
+    border-style:double;
+    border-width:10px;
+    top: 600px;
+    left: 970px;
+    font-size: 110px;
+    font-family: times;
+    color: white;
+    position: center;
+}
+
+.rec3 {
+    width:130px;
+    height:100px;
+    background-color:black;
+    position: absolute;
+    border-color:lightgrey;
+    border-style:double;
+    border-width:10px;
+    top: 1090px;
+    left: 550px;
+    font-size: 110px;
+    font-family: times;
+    color: white;
+    position: center;
+}
+
+.rec4 {
+    width:115px;
+    height:130px;
+    background-color:black;
+    position: absolute;
+    border-color:lightgrey;
+    border-style:double;
+    border-width:10px;
+    top: 600px;
+    left: 108px;
+    font-size: 110px;
+    font-family: times;
+    color: white;
+    position: center;
+}
+
+
+.clock {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius:100%;
+    background-color:black;
+    border-color:black;
+    border-style:double;
+    animation-name: myclock;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    top: 600px;
+    left: 550px;
+}
+
+.seconds {
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 48px;
+    
+}
+
+@keyframes myclock{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.circle2 {
+    width:400px;
+    height:220px;
+    background-color: lightgrey;
+    border-color:black;
+    border-style:double;
+    position: absolute;
+    top: 810px;
+    left: 400px;
+    border-radius: 100%;
+}
+
+.mycircle2 {
+    width:220px;
+    height:220px;
+    background-color:lightblue;
+    border-color:black;
+    border-style:double;
+    position: absolute;
+    top: 810px;
+    left: 490px;
+    border-radius: 100%;
+}
+
+.circle3 {
+    width:400px;
+    height:220px;
+    background-color: lightgrey;
+    border-color:black;
+    border-style:double;
+    position: absolute;
+    top: 280px;
+    left: 400px;
+    border-radius: 100%;
+}
+
+.mycircle3 {
+    width:220px;
+    height:220px;
+    background-color:lightblue;
+    border-color:black;
+    border-style:double;
+    position: absolute;
+    top: 280px;
+    left: 490px;
+    border-radius: 100%;
+}
+
+.clock2 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius:100%;
+    background-color:black;
+    border-color:black;
+    border-style:double;
+    animation-name: myclock;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    top: 870px;
+    left: 550px;
+}
+
+.seconds2 {
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 48px;
+    
+}
+
+@keyframes myclock{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.clock3 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius:100%;
+    background-color:black;
+    border-color:black;
+    border-style:double;
+    animation-name: myclock;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    top: 340px;
+    left: 550px;
+}
+
+.seconds3 {
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 48px;
+    
+}
+
+@keyframes myclock{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.dcircle1 {
+    background-color:black;
+    border-style:double;
+    border-color:lightblue;
+    border-width:10px;
+    position:absolute;
+    width:100px;
+    height:100px;
+    top:230px;
+    left:230px;
+    border-radius: 100%;
+}
+
+.dcircle2 {
+    background-color:black;
+    position:absolute;
+    border-style:double;
+    border-color:lightblue;
+    border-width:10px;
+    width:100px;
+    height:100px;
+    top:1000px;
+    left:230px;
+    border-radius: 100%;
+}
+
+.dcircle3 {
+    background-color:black;
+    border-style:double;
+    border-color:lightblue;
+    border-width:10px;
+    position:absolute;
+    width:100px;
+    height:100px;
+    top:230px;
+    left:880px;
+    border-radius: 100%;
+}
+
+.dcircle4 {
+    background-color:black;
+    position:absolute;
+    border-style:double;
+    border-color:lightblue;
+    border-width:10px;
+    width:100px;
+    height:100px;
+    top:1000px;
+    left:880px;
+    border-radius: 100%;
+}
+
+.dscircle1 {
+    background-color:lightgrey;
+    position:absolute;
+    border-style:double;
+    border-color:black;
+    border-width:7px;
+    width:100px;
+    width:50px;
+    height:50px;
+    top:150px;
+    left:150px;
+    border-radius: 100%;
+}
+
+.dscircle2 {
+    background-color:lightgrey;
+    position:absolute;
+    border-style:double;
+    border-color:black;
+    border-width:7px;
+    width:50px;
+    height:50px;
+    top:150px;
+    left:1000px;
+    border-radius: 100%;
+}
+
+.dscircle3 {
+    background-color:lightgrey;
+    position:absolute;
+    border-style:double;
+    border-color:black;
+    border-width:7px;
+    width:50px;
+    height:50px;
+    top:1100px;
+    left:150px;
+    border-radius: 100%;
+}
+
+.dscircle4 {
+    background-color:lightgrey;
+    position:absolute;
+    border-style:double;
+    border-color:black;
+    border-width:7px;
+    width:50px;
+    height:50px;
+    top:1100px;
+    left:1000px;
+    border-radius: 100%;
+}
+
+.sclock1 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius:100%;
+    background-color:black;
+    border-color:black;
+    border-style:double;
+    animation-name: myclock;
+    animation-duration: 0.5s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    top: 640px;
+    left: 300px;
+}
+
+.sseconds1 {
+    width: 50px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 24px;
+    
+}
+
+@keyframes myclock{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.sclock2 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius:100%;
+    background-color:black;
+    border-color:black;
+    border-style:double;
+    animation-name: myclock;
+    animation-duration: 0.5s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    top: 640px;
+    left: 860px;
+}
+
+.sseconds2 {
+    width: 50px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 24px;
+    
+}
+
+@keyframes myclock{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.clock:hover {
+    width:300px;
+    height:300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

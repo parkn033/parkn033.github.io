@@ -142,7 +142,7 @@ body {
     animation-iteration-count:infinite;
     animation-timing-function:linear;
     top: 600px;
-    right: 2095px;
+    left: 550px;
 }
 
 .seconds {
