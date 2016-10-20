@@ -453,13 +453,35 @@ body {
     }
 }
 
-.clock:hover {
-    width:300px;
-    height:300px;
+.dcircle1:hover {
+    width: 150px;
+    height: 150px;
+    background-color:cyan;
 }
 
+.dcircle2:hover {
+    width: 150px;
+    height: 150px;
+    background-color:cyan;
+}
 
+.dcircle3:hover {
+    width: 150px;
+    height: 150px;
+    background-color:cyan;
+}
 
+.dcircle4:hover {
+    width: 150px;
+    height: 150px;
+    background-color:cyan;
+}
+
+.seconds:hover {
+    width:550px;
+    height:10px;
+    background-color:red;
+}
 
 
 
