@@ -51,7 +51,8 @@ $("#status").mouseenter(function() {
   //run this code when the mouse enters the target
     console.log("you went over the button...")
     if (clicked == true){
-        $("#cat").show()}
+        $("#cat").show();
+    }
 });
 
 $("#status").mouseleave(function() {
