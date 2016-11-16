@@ -10,7 +10,7 @@ var b = ["bld.jpg",""]
 
 $(".circle").each(function() {
     console.log(counter);;
-    $(this).css("opacity",(counter/200));
+    $(this).css("opacity",(counter/300));
     $(this).html(counter);
     $(this).css("width",(300+counter));
     $(this).css("line-height",100+counter+"px");
@@ -29,7 +29,8 @@ $(".circle").each(function() {
 
 $(window).scroll(function() {
     console.log($(window).scrollTop());
-    $(".circle").css("opacity",$(window).scrollTop()/4000)
+    $(".circle").css("opacity",$(window).scrollTop()/4000);
+    $(".circle").css("background-color","cyan");
 });
 
 $(window).resize(function() {

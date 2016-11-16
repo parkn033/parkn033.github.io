@@ -111,10 +111,38 @@ textarea {
     border-style:double;
     border-color:red;
     border-width:30px;
+    position: absolute;
 }
 
+.circle1 {
+    width: 2400px;
+    height: 1600px;
+    background-color:grey;
+    border-radius: 100%;
+    position:fixed;
+    left:50%;
+    top:50%;
+}
 
+.circle2 {
+    width: 1600px;
+    height: 1600px;
+    background-color:white;
+    border-radius: 100%;
+    position:fixed;
+    left:57%;
+    top:50%;
+}
 
+.circle3 {
+    width: 900px;
+    height: 900px;
+    background-color:cyan;
+    border-radius: 100%;
+    position:fixed;
+    left:63%;
+    top:60%;
+}
 
 
 
