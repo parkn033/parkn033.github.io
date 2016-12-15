@@ -1,0 +1,718 @@
+body {
+    background-color: white;
+    color: White;
+}
+
+.circle1 {
+    width:150px;
+    height:150px;
+    background-color: grey;
+    border-color:black;
+    border-style:double;
+    position: absolute;
+    top: 500px;
+    left: 120px;
+    border-radius: 100%;
+}
+
+.circle2 {
+    width:50px;
+    height:50px;
+    background-color: black;
+    border-color:black;
+    border-style:double;
+    position: absolute;
+    top: 550px;
+    left: 170px;
+    border-radius: 100%;
+}
+
+.circle3 {
+    width:400px;
+    height:220px;
+    background-color: darkgrey;
+    border-color:black;
+    border-style:double;
+    position: absolute;
+    top: 450px;
+    left: 0px;
+    border-radius: 100%;
+}
+
+.mycircle {
+    width:230px;
+    height:230px;
+    background-color: white;
+    border-color:black;
+    border-style:double;
+    position: absolute;
+    top: 450px;
+    left: 80px;
+    border-radius: 100%;
+}
+
+.out1 {
+    width:400px;
+    height:220px;
+    background-color: lightblue;
+    border-color:black;
+    border-style:double;
+    position: absolute;
+    top: 450px;
+    left: 440px;
+    border-radius: 100%;
+}
+
+.in1 {
+    width:220px;
+    height:220px;
+    background-color:white;
+    border-color:black;
+    border-style:double;
+    position: absolute;
+    top: 450px;
+    left: 530px;
+    border-radius: 100%;
+}
+
+.wayin1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius:100%;
+    background-color:black;
+    border-color:black;
+    border-style:double;
+    animation-name: myclock;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    top: 515px;
+    left: 590px;
+}
+
+.seconds {
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    
+}
+
+@keyframes myclock{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.out2 {
+    width:550px;
+    height:320px;
+    background-color: grey;
+    border-color:black;
+    border-style:double;
+    position: absolute;
+    top: 360px;
+    left: 880px;
+    border-radius: 100%;
+}
+
+.in2 {
+    width:320px;
+    height:320px;
+    background-color:white;
+    border-color:black;
+    border-style:double;
+    position: absolute;
+    top: 360px;
+    left: 990px;
+    border-radius: 100%;
+}
+
+.wayin2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius:100%;
+    background-color:lightblue;
+    border-color:black;
+    border-style:double;
+    top: 430px;
+    left: 1050px;
+}
+
+
+
+.circle6 {
+    width: 300px;
+    height: 100px;
+    background-color:lightblue;
+    border-radius: 100%;
+    position: absolute;
+    top: 650px;
+    left: 1500px;
+}
+
+.circle7 {
+    width: 100px;
+    height: 100px;
+    background-color:darkblue;
+    border-radius: 100%;
+    position: absolute;
+    top: 650px;
+    left: 1600px;
+}
+
+.circle8 {
+    width: 50px;
+    height: 50px;
+    background-color:cyan;
+    border-radius: 100%;
+    position: absolute;
+    top: 676px;
+    left: 1625px;
+}
+
+.circle9 {
+    width: 300px;
+    height: 100px;
+    background-color:grey;
+    border-radius: 100%;
+    position: absolute;
+    top: 520px;
+    left: 1500px;
+}
+
+.circle10 {
+    width: 100px;
+    height: 100px;
+    background-color:cyan;
+    border-radius: 100%;
+    position: absolute;
+    top: 520px;
+    left: 1600px;
+}
+
+.circle11 {
+    width: 50px;
+    height: 50px;
+    background-color:black;
+    border-radius: 100%;
+    position: absolute;
+    top: 546px;
+    left: 1625px;
+}
+
+.out3 {
+    width:400px;
+    height:220px;
+    background-color: lightblue;
+    border-color:black;
+    border-style:double;
+    position: absolute;
+    top: 270px;
+    left: 1830px;
+    border-radius: 100%;
+}
+
+.in3 {
+    width:220px;
+    height:220px;
+    background-color:white;
+    border-color:black;
+    border-style:double;
+    position: absolute;
+    top: 270px;
+    left: 1920px;
+    border-radius: 100%;
+}
+
+.wayin3 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius:100%;
+    background-color:black;
+    border-color:black;
+    border-style:double;
+    animation-name: myclock;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    top: 330px;
+    left: 1980px;
+}
+
+.seconds1 {
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 48px;
+    
+}
+
+@keyframes myclock{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.out4 {
+    width:400px;
+    height:220px;
+    background-color: lightgrey;
+    border-color:black;
+    border-style:double;
+    position: absolute;
+    top: 520px;
+    left: 1830px;
+    border-radius: 100%;
+}
+
+.in4 {
+    width:220px;
+    height:220px;
+    background-color:lightblue;
+    border-color:black;
+    border-style:double;
+    position: absolute;
+    top: 520px;
+    left: 1920px;
+    border-radius: 100%;
+}
+
+.out5 {
+    width:400px;
+    height:220px;
+    background-color: lightgrey;
+    border-color:black;
+    border-style:double;
+    position: absolute;
+    top: 20px;
+    left: 1830px;
+    border-radius: 100%;
+}
+
+.in5 {
+    width:220px;
+    height:220px;
+    background-color:lightblue;
+    border-color:black;
+    border-style:double;
+    position: absolute;
+    top: 20px;
+    left: 1920px;
+    border-radius: 100%;
+}
+
+.wayin4 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius:100%;
+    background-color:black;
+    border-color:black;
+    border-style:double;
+    animation-name: myclock;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    top: 580px;
+    left: 1980px;
+}
+
+.seconds2 {
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 48px;
+    
+}
+
+@keyframes myclock{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.wayin5 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius:100%;
+    background-color:black;
+    border-color:black;
+    border-style:double;
+    animation-name: myclock;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    top: 80px;
+    left: 1980px;
+}
+
+.seconds3 {
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 48px;
+    
+}
+
+@keyframes myclock{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.c1 {
+    background-color:black;
+    width:230px;
+    height:115px;
+    position:absolute;
+    border-radius:100%;
+    top:20px;
+    left:2300px;
+}
+
+.d1 {
+    background-color:lightblue;
+    width:90px;
+    height:90px;
+    position:absolute;
+    border-radius:100%;
+    top:30px;
+    left:2370px;
+}
+
+.c2 {
+    background-color:black;
+    width:230px;
+    height:115px;
+    position:absolute;
+    border-radius:100%;
+    top:145px;
+    left:2300px;
+}
+
+.d2 {
+    background-color:lightblue;
+    width:90px;
+    height:90px;
+    position:absolute;
+    border-radius:100%;
+    top:155px;
+    left:2370px;
+}
+
+.c3 {
+    background-color:black;
+    width:230px;
+    height:115px;
+    position:absolute;
+    border-radius:100%;
+    top:270px;
+    left:2300px;
+}
+
+.d3 {
+    background-color:lightblue;
+    width:90px;
+    height:90px;
+    position:absolute;
+    border-radius:100%;
+    top:280px;
+    left:2370px;
+}
+
+.c4 {
+    background-color:black;
+    width:230px;
+    height:115px;
+    position:absolute;
+    border-radius:100%;
+    top:395px;
+    left:2300px;
+}
+
+.d4 {
+    background-color:lightblue;
+    width:90px;
+    height:90px;
+    position:absolute;
+    border-radius:100%;
+    top:405px;
+    left:2370px;
+}
+
+.c5 {
+    background-color:black;
+    width:230px;
+    height:115px;
+    position:absolute;
+    border-radius:100%;
+    top:520px;
+    left:2300px;
+}
+
+.d5 {
+    background-color:lightblue;
+    width:90px;
+    height:90px;
+    position:absolute;
+    border-radius:100%;
+    top:530px;
+    left:2370px;
+}
+
+.c6 {
+    background-color:black;
+    width:230px;
+    height:115px;
+    position:absolute;
+    border-radius:100%;
+    top:645px;
+    left:2300px;
+}
+
+.d6 {
+    background-color:lightblue;
+    width:90px;
+    height:90px;
+    position:absolute;
+    border-radius:100%;
+    top:655px;
+    left:2370px;
+}
+
+.c7 {
+    background-color:black;
+    width:230px;
+    height:115px;
+    position:absolute;
+    border-radius:100%;
+    top:20px;
+    left:2550px;
+}
+
+.d7 {
+    background-color:lightblue;
+    width:90px;
+    height:90px;
+    position:absolute;
+    border-radius:100%;
+    top:30px;
+    left:2620px;
+}
+
+.c8 {
+    background-color:black;
+    width:230px;
+    height:115px;
+    position:absolute;
+    border-radius:100%;
+    top:145px;
+    left:2550px;
+}
+
+.d8 {
+    background-color:lightblue;
+    width:90px;
+    height:90px;
+    position:absolute;
+    border-radius:100%;
+    top:155px;
+    left:2620px;
+}
+
+.c9 {
+    background-color:black;
+    width:230px;
+    height:115px;
+    position:absolute;
+    border-radius:100%;
+    top:270px;
+    left:2550px;
+}
+
+.d9 {
+    background-color:lightblue;
+    width:90px;
+    height:90px;
+    position:absolute;
+    border-radius:100%;
+    top:280px;
+    left:2620px;
+}
+
+.c10 {
+    background-color:black;
+    width:230px;
+    height:115px;
+    position:absolute;
+    border-radius:100%;
+    top:395px;
+    left:2550px;
+}
+
+.d10 {
+    background-color:lightblue;
+    width:90px;
+    height:90px;
+    position:absolute;
+    border-radius:100%;
+    top:405px;
+    left:2620px;
+}
+
+.c11 {
+    background-color:black;
+    width:230px;
+    height:115px;
+    position:absolute;
+    border-radius:100%;
+    top:520px;
+    left:2550px;
+}
+
+.d11 {
+    background-color:lightblue;
+    width:90px;
+    height:90px;
+    position:absolute;
+    border-radius:100%;
+    top:530px;
+    left:2620px;
+}
+
+.c12 {
+    background-color:black;
+    width:230px;
+    height:115px;
+    position:absolute;
+    border-radius:100%;
+    top:645px;
+    left:2550px;
+}
+
+.d12 {
+    background-color:lightblue;
+    width:90px;
+    height:90px;
+    position:absolute;
+    border-radius:100%;
+    top:655px;
+    left:2620px;
+}
+
+.container1 {
+    background-color:black;
+    width:400px;
+    height:50px;
+    position:absolute;
+    top:720px;
+    font-style:Arial;
+    color:black;
+    text-align:center;
+}
+
+.container1:hover {
+    background-color:cyan;
+}
+
+.container2 {
+    background-color:black;
+    width:400px;
+    height:50px;
+    position:absolute;
+    top:720px;
+    left:450px;
+    font-style:Arial;
+    color:black;
+    text-align:center;
+}
+
+.container2:hover {
+    background-color:cyan;
+}
+
+.container3 {
+    background-color:black;
+    width:450px;
+    height:50px;
+    position:absolute;
+    top:720px;
+    left:950px;
+    font-style:Arial;
+    color:black;
+    text-align:center;
+}
+
+.container3:hover {
+    background-color:cyan;
+}
+
+.container4 {
+    background-color:black;
+    width:300px;
+    height:50px;
+    position:absolute;
+    top:800px;
+    left:1500px;
+    font-style:Arial;
+    color:black;
+    text-align:center;
+}
+
+.container4:hover {
+    background-color:cyan;
+}
+
+.container5 {
+    background-color:black;
+    width:400px;
+    height:50px;
+    position:absolute;
+    top:800px;
+    left:1850px;
+    font-style:Arial;
+    color:black;
+    text-align:center;
+}
+
+.container5:hover {
+    background-color:cyan;
+}
+
+.container6 {
+    background-color:black;
+    width:450px;
+    height:50px;
+    position:absolute;
+    top:800px;
+    left:2320px;
+    font-style:Arial;
+    color:black;
+    text-align:center;
+}
+
+.container6:hover {
+    background-color:cyan;
+}

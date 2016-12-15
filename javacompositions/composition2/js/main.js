@@ -33,5 +33,8 @@ $(".go").mouseleave(function() {
 
 $(window).scroll(function() {
     console.log($(window).scrollTop());
-    $("body").css("background-color","grey");
+    if ($(window).scrollTop() > 550) {
+        $("body").css("background-color","grey");
+        $(".ball").hide()
+    }
 });
