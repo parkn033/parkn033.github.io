@@ -10,7 +10,7 @@ body {
     border-color:black;
     border-style:double;
     position: absolute;
-    top: 500px;
+    top: 570px;
     left: 120px;
     border-radius: 100%;
 }
@@ -22,7 +22,7 @@ body {
     border-color:black;
     border-style:double;
     position: absolute;
-    top: 550px;
+    top: 620px;
     left: 170px;
     border-radius: 100%;
 }
@@ -34,7 +34,7 @@ body {
     border-color:black;
     border-style:double;
     position: absolute;
-    top: 450px;
+    top: 520px;
     left: 0px;
     border-radius: 100%;
 }
@@ -46,7 +46,7 @@ body {
     border-color:black;
     border-style:double;
     position: absolute;
-    top: 450px;
+    top: 520px;
     left: 80px;
     border-radius: 100%;
 }
@@ -58,7 +58,7 @@ body {
     border-color:black;
     border-style:double;
     position: absolute;
-    top: 450px;
+    top: 520px;
     left: 440px;
     border-radius: 100%;
 }
@@ -70,7 +70,7 @@ body {
     border-color:black;
     border-style:double;
     position: absolute;
-    top: 450px;
+    top: 520px;
     left: 530px;
     border-radius: 100%;
 }
@@ -87,7 +87,7 @@ body {
     animation-duration: 5s;
     animation-iteration-count:infinite;
     animation-timing-function:linear;
-    top: 515px;
+    top: 585px;
     left: 590px;
 }
 
@@ -117,7 +117,7 @@ body {
     border-color:black;
     border-style:double;
     position: absolute;
-    top: 360px;
+    top: 430px;
     left: 880px;
     border-radius: 100%;
 }
@@ -129,7 +129,7 @@ body {
     border-color:black;
     border-style:double;
     position: absolute;
-    top: 360px;
+    top: 430px;
     left: 990px;
     border-radius: 100%;
 }
@@ -142,7 +142,7 @@ body {
     background-color:lightblue;
     border-color:black;
     border-style:double;
-    top: 430px;
+    top: 500px;
     left: 1050px;
 }
 
@@ -627,7 +627,7 @@ body {
     width:400px;
     height:50px;
     position:absolute;
-    top:720px;
+    top:800px;
     font-style:Arial;
     color:black;
     text-align:center;
@@ -642,7 +642,7 @@ body {
     width:400px;
     height:50px;
     position:absolute;
-    top:720px;
+    top:800px;
     left:450px;
     font-style:Arial;
     color:black;
@@ -658,7 +658,7 @@ body {
     width:450px;
     height:50px;
     position:absolute;
-    top:720px;
+    top:800px;
     left:950px;
     font-style:Arial;
     color:black;
@@ -715,4 +715,9 @@ body {
 
 .container6:hover {
     background-color:cyan;
+}
+
+.a {
+    color: black;
+    font-size:15pt;
 }
